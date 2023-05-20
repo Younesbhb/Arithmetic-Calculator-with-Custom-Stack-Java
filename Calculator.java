@@ -108,7 +108,7 @@ public class Calculator extends MyCustomStack {
                 case '=', '!':
                     return 5;
                 default:
-                    return -1; //if none of the character this -1 is returned
+                    return 1000000000; //if none of the character a big number is returned
             }
 
 
